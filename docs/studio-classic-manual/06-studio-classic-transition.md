@@ -22,8 +22,13 @@ Yes, the vector tile format used by Mapbox Studio Classic is the same as the vec
 
 ## Can I use Mapbox Studio Classic styles in Mapbox Studio?
 
-No. Mapbox Studio uses the [Mapbox Style Specification](https://www.mapbox.com/mapbox-gl-style-spec/), which is incompatible with CartoCSS, the language used by Mapbox Studio Classic. There is no automatic method to convert one from the other. We recommend recreating Classic styles in Mapbox Studio. To get started with the Mapbox Studio style editor see the [Mapbox Studio Manual](https://www.mapbox.com/studio-manual/reference/styles/) and the [Create a custom style](https://www.mapbox.com/help/create-a-custom-style/) tutorial.
+No. Mapbox Studio uses the [Mapbox Style Specification](https://www.mapbox.com/mapbox-gl-style-spec/), which is incompatible with CartoCSS, the language used by Mapbox Studio Classic. 
+
+## How do I convert my Mapbox Studio Classic style into a modern Mapbox Studio style?
+
+There is no automatic method to convert a Mapbox Studio Classic style into a modern Mapbox Studio Style. We recommend recreating Classic styles in Mapbox Studio. To get started with the Mapbox Studio style editor, see the [Mapbox Studio Manual](https://www.mapbox.com/studio-manual/reference/styles/) and the [Create a custom style](https://www.mapbox.com/help/create-a-custom-style/) tutorial. <a href="https://www.youtube.com/watch?v=7-YP49Eo5ck&list=PL86WBCjNmqh7H3syAQQrOWBY5U3DyZvq_&index=1" target="_blank">This 5-minute video tutorial</a> is also a good resource.
 
 ## Can I export images for print from Mapbox Studio?
 
 While Mapbox Studio does not have high-resolution export feature, you can use the [Static API](https://www.mapbox.com/help/define-static-api/) to get an image of your map style. Read more about static maps in the [Static and print maps guide](https://www.mapbox.com/help/how-static-maps-work/).
+
